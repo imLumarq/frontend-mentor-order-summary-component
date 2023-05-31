@@ -1,0 +1,36 @@
+:root {
+    /*Colors*/
+
+    /*Primary*/
+
+    --primary-bright-blue: 245, 75%, 52%;
+    --primary-pale-blue: 225, 100%, 94%;
+
+    /*Neutral*/
+
+    --neutral-dark-blue: 223, 47%, 23%;
+    --neutral-desaturated-blue: 224, 23%, 55%;
+    --neutral-very-pale-blue: 225, 100%, 98%;
+
+    /*Typography*/
+
+    --font-family: 'Red Hat Display', sans-serif;
+    --font-size: 1rem;
+    --font-weight-500: 500;
+    --font-weight-700: 700;
+    --font-weight-900: 900;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    color-scheme: light only;
+}
+
+img {
+    display: block;
+}
