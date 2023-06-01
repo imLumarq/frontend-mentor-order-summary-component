@@ -154,7 +154,7 @@ body,
 
 .section__link:active,
 .section__link:focus {
-    color: hsla(var(--neutral-desaturated-blue));
+    color: hsl(var(--neutral-desaturated-blue));
     transition: all 2s;
 }
 
