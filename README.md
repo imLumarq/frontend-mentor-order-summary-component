@@ -37,9 +37,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://www.frontendmentor.io/solutions/order-summary-component-sc_mfgrPhD)
-- Live Site URL: [](https://imlumarq.github.io/frontend-mentor-order-summary-component)
-- Github Repository: [](https://github.com/imLumarq/frontend-mentor-order-summary-component)
+- Solution URL: [https://www.frontendmentor.io/solutions/order-summary-component-sc_mfgrPhD]
+- Live Site URL: [https://imlumarq.github.io/frontend-mentor-order-summary-component]
+- Github Repository: [https://github.com/imLumarq/frontend-mentor-order-summary-component]
 
 ## My process
 
