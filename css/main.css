@@ -1,4 +1,8 @@
 :root {
+
+    --padding-and-gap: 1rem;
+    --border-radius: 1rem;
+
     /*Colors*/
 
     /*Primary*/
@@ -27,10 +31,129 @@
     padding: 0;
 }
 
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    display: block;
+    border: none;
+}
+
 html {
     color-scheme: light only;
 }
 
-img {
+html,
+body,
+.main {
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    min-height: 100vh;
+    min-height: 100dvh;
+    background-color: hsl(var(--primary-pale-blue));
+    color: hsl(var(--neutral-dark-blue));
+}
+
+.main {
+    background-image: url("../images/pattern-background-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: grid;
+    place-items: center;
+}
+
+.main__wrapper {
+    display: grid;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    width: 90vw;
+    max-width: 375px;
+}
+
+.wrapper__image {
+    width: 100%;
+}
+
+.wrapper__section {
+    display: grid;
+    padding: var(--padding-and-gap);
+    gap: var(--padding-and-gap);
+    text-align: center;
+    background-color: hsl(var(--neutral-very-pale-blue));
+}
+
+.section__heading {
+    font-weight: var(--font-weight-700);
+    text-transform: capitalize;
+}
+
+.section__info {
+    line-height: 1.8;
+    color: hsl(var(--neutral-desaturated-blue));
+}
+
+.section__div {
+    padding: var(--padding-and-gap);
+    gap: var(--padding-and-gap);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: var(--border-radius);
+    background-color: hsla(var(--neutral-desaturated-blue), 0.05);
+}
+
+.div__plan {
+    text-align: start;
+    text-transform: capitalize;
+    font-weight: var(--font-weight-500);
+    flex: 1;
+}
+
+.div__price {
     display: block;
+    color: hsl(var(--neutral-desaturated-blue));
+}
+
+.div__link {
+    text-decoration: underline;
+}
+
+.section__button {
+    font-size: var(--font-size);
+    font-family: var(--font-family);
+    padding: var(--padding-and-gap);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    background-color: hsl(var(--primary-bright-blue));
+    color: hsl(var(--primary-pale-blue));
+    font-weight: var(--font-weight-900);
+    text-transform: capitalize;
+}
+
+.section__link {
+    text-transform: capitalize;
+    color: hsla(var(--neutral-desaturated-blue));
+    font-weight: var(--font-weight-900);
+}
+
+@media (min-width:340px) {
+
+    .section__info {
+        padding: 0 var(--padding-and-gap);
+    }
+
+    .section__div {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 538px) {
+    .main {
+        background-image: url("../images/pattern-background-desktop.svg");
+    }
 }
