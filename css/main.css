@@ -131,7 +131,7 @@ body,
 }
 
 .section__link {
-    color: hsla(var(--neutral-desaturated-blue));
+    color: hsl(var(--neutral-desaturated-blue));
     font-weight: var(--font-weight-900);
     text-decoration: none;
     text-transform: capitalize;
@@ -154,7 +154,7 @@ body,
 
 .section__link:active,
 .section__link:focus {
-    color: hsl(var(--neutral-desaturated-blue));
+    color: hsl(var(--neutral-dark-blue));
     transition: all 2s;
 }
 
